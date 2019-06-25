@@ -1,0 +1,73 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  list-style:none;
+  font-family: 'Varela Round', sans-serif;
+}
+
+body{
+  background-color: #00c4a7
+}
+
+.contenedorWeb{
+  width:30%;
+  height:50vh;
+  background-color: #F1E9DA;
+  margin:10px auto 0 auto;
+  padding:10px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(2,4,43,0.5);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(2,4,43,0.5);
+  box-shadow: 2px 2px 5px 0px rgba(2,4,43,0.5);
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.titulo{
+  width:100%;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.nuevaBanda{
+  width:100%;
+}
+
+.nuevaBanda .drum{
+  width: 30px;
+}
+.nuevaBanda .plus{
+  width: 20px;
+}
+
+hr{
+  border: 1px solid black;
+  margin: 5px 0;
+}
+
+.titulos{
+  margin: 20px 0 5px 0;
+  display: flex;
+}
+
+.titulos div{
+  width: 45%;
+  margin-right: 10px;
+  font-weight: 500;
+}
+  
+.li{
+  display:flex;
+}
+
+.li nombre{
+  width: 45%;
+  margin-right: 10px;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-top: 10px;
+  background-color: red;
+}
